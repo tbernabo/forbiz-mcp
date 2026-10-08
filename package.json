@@ -1,0 +1,36 @@
+{
+  "name": "forbiz-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Forbiz, the CRM for AI agents: commitments, expected signals, evidence and outcomes your agent can resume later.",
+  "type": "module",
+  "bin": {
+    "forbiz-mcp": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.5"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "crm",
+    "agent-memory",
+    "forbiz"
+  ],
+  "homepage": "https://forbiz.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbernabo/forbiz-mcp.git"
+  },
+  "license": "MIT"
+}
