@@ -16,7 +16,7 @@ Requires Node 18 or later.
 **Claude Code**
 
 ```bash
-claude mcp add forbiz -- npx -y github:tbernabo/forbiz-mcp
+claude mcp add forbiz -- npx -y forbiz-mcp
 ```
 
 **Claude Desktop** (`claude_desktop_config.json`) or **Cursor** (`.cursor/mcp.json`)
@@ -26,7 +26,7 @@ claude mcp add forbiz -- npx -y github:tbernabo/forbiz-mcp
   "mcpServers": {
     "forbiz": {
       "command": "npx",
-      "args": ["-y", "github:tbernabo/forbiz-mcp"]
+      "args": ["-y", "forbiz-mcp"]
     }
   }
 }
